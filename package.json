@@ -1,0 +1,13 @@
+{
+  "name": "saudi-landmarks-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Saudi Arabia landmarks and leadership showcase",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
