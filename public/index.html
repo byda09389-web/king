@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أبرز الأماكن في السعودية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="introModal" class="modal show">
+      <div class="modal-card">
+        <div class="badge">قيادة المملكة العربية السعودية</div>
+        <h1> قيادةالمملكة العربية السعودية </h1>
+        <div class="leadership-grid">
+          <div class="leader-card">
+            <span>الملك</span>
+            <strong>سلمان بن عبدالعزيز آل سعود</strong>
+          </div>
+          <div class="leader-card">
+            <span>ولي العهد</span>
+            <strong>محمد بن سلمان بن عبدالعزيز</strong>
+          </div>
+          <div class="leader-card wide">
+            <span>كبار الضباط</span>
+            <strong>قادة القوات المسلحة السعودية وقيادة المملكة</strong>
+          </div>
+        </div>
+        <button id="continueBtn" type="button">استمرار</button>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <nav class="topbar container">
+        <div class="logo">السعودية</div>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#landmarks">الأماكن</a></li>
+          <li><a href="#culture">الثقافة</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">رحلة استكشاف</p>
+            <h2>أبرز الأماكن في المملكة العربية السعودية</h2>
+            <p>
+              اكتشف المدن التاريخية، المواقع الطبيعية الساحرة، والمواقع الإسلامية
+              العريقة التي تعكس جمال المملكة وقيمها وثقافتها.
+            </p>
+            <div class="cta-group">
+              <a href="#landmarks" class="primary-btn">استكشف المعالم</a>
+              <a href="#culture" class="secondary-btn">اكتشف الثقافة</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="image-card">
+              <img src="https://i.pinimg.com/1200x/c7/0b/72/c70b72b3274ce90a59c2a00e57c0fe4e.jpg" alt="المدينة المنورة" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="landmarks" class="landmarks section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">معالم المملكة</p>
+            <h3>أبرز الأماكن السياحية</h3>
+          </div>
+
+          <div class="card-grid">
+            <article class="place-card">
+              <img src="https://i.pinimg.com/736x/c3/2e/40/c32e40e7b2b01373da130e63feaa0a47.jpg" alt="مكه المكرمة" />
+              <div class="card-body">
+                <h4>مكة المكرمة</h4>
+                <p>مدينة الرسالة والقداسة، وتضم الحرم الشريف وأبرز المواقع الإسلامية.</p>
+              </div>
+            </article>
+
+            <article class="place-card">
+              <img src="https://i.pinimg.com/736x/36/b6/d4/36b6d45edb96206fbb2bc13f5a61b870.jpg" alt="المدينة المنورة" />
+              <div class="card-body">
+                <h4>المدينة المنورة</h4>
+                <p>مدينة النبوة ذات الطابع الروحي، ومزار مهيب للزوار في جميع أنحاء العالم.</p>
+              </div>
+            </article>
+
+            <article class="place-card">
+              <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80" alt="الرياض" />
+              <div class="card-body">
+                <h4>الرياض</h4>
+                <p>العاصمة الحديثة التي تجمع بين الفن المعماري والحدائق والأنشطة المتقدمة.</p>
+              </div>
+            </article>
+
+            <article class="place-card">
+              <img src="https://i.pinimg.com/736x/2b/db/20/2bdb20934976fec3e5128d5499517f54.jpg" alt="العلا" />
+              <div class="card-body">
+                <h4>العلا</h4>
+                <p>مدينة التاريخ والجبال والآثار، وتشتهر بمناظرها الطبيعية الخلابة.</p>
+              </div>
+            </article>
+
+            <article class="place-card">
+              <img src="https://i.pinimg.com/1200x/34/68/fc/3468fc2ba6081cf11dbe56f73faf0d18.jpg" alt="جدة" />
+              <div class="card-body">
+                <h4>جدة</h4>
+                <p>عروس البحر الأحمر، مع كورنيشها الواسع وممراتها التجارية المميزة.</p>
+              </div>
+            </article>
+
+            <article class="place-card">
+              <img src="https://i.pinimg.com/1200x/a6/d3/dc/a6d3dc3fa3e8e3002b474d553ce097df.jpg" alt="أبها" />
+              <div class="card-body">
+                <h4>أبها</h4>
+                <p>مدينة الطقس المعتدل ومناطق الجبل والحدائق، وتستقطب الزوار طوال العام.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="culture" class="culture section alt-section">
+        <div class="container culture-grid">
+          <div>
+            <p class="eyebrow">لماذا السعودية</p>
+            <h3>تاريخ غني وثقافة أصيلة</h3>
+            <ul class="culture-list">
+              <li>مواقع أثرية تعكس عمق الحضارة السعودية عبر العصور.</li>
+              <li>أماكن دينية ومزار سياحي يزوره ملايين الزوار سنوياً.</li>
+              <li>مدن حديثة تجمع بين التطور والهوية الثقافية الأصيلة.</li>
+              <li>طبيعة متنوعة من الجبال والوديان والسواحل.</li>
+            </ul>
+          </div>
+          <div class="stats-box">
+            <div class="stat-item">
+              <strong>13</strong>
+              <span>منطقة إدارية</span>
+            </div>
+            <div class="stat-item">
+              <strong>+30</strong>
+              <span>منطقة أثرية</span>
+            </div>
+            <div class="stat-item">
+              <strong>6</strong>
+              <span>مدن رئيسية</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="history section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">تاريخ الإسلام</p>
+            <h3>تاريخ الإسلام في الجزيرة العربية</h3>
+          </div>
+
+          <div class="history-box">
+            <p>
+              ظهر الإسلام في شبه الجزيرة العربية في أوائل القرن السابع الميلادي، عندما جاء النبي محمد صلى
+              الله عليه وسلم بالدعوة إلى توحيد الله ونشر القيم العدالة والرحمة والصدق، فاستقطبت هذه الرسالة
+              قلوب الناس وغيّرت مجرى التاريخ في المنطقة.
+            </p>
+            <p>
+              وقد ارتبط تاريخ الإسلام ارتباطاً وثيقاً بمكة المكرمة والمدينة المنورة، حيث بدأ النبأ الشريف في
+              الحرم المكي، ثم استقر المسلمون في المدينة ليؤسّسوا مجتمعاً يضم القيم الإسلامية والعدل والتآخي.
+              وسرعان ما انتشر الإسلام في أنحاء العالم، ليصبح أحد أعظم الديانات العالمية من حيث التأثير الحضاري
+              والثقافي والفكري.
+            </p>
+            <p>
+              واليوم، تظل المملكة العربية السعودية موطناً للهوية الإسلامية الأصيلة، حيث تحتضن الحرمين الشريفين
+              وتعمل على حفظ تراث الإسلام ونشر قيمه في كل أنحاء العالم.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="history section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">تاريخ المملكة</p>
+            <h3>تاريخ المملكة العربية السعودية</h3>
+          </div>
+
+          <div class="history-box">
+            <p>
+              تأسست المملكة العربية السعودية في 23 سبتمبر 1932، عندما أعلن الملك عبدالعزيز آل سعود توحيد
+              أقاليم الجزيرة العربية في كيان واحد تحت اسم المملكة العربية السعودية. وقد استمرت مسيرة التأسيس
+              عبر مراحل طويلة من الوحدة والجهود والبطولات، حيث جمع الملك عبدالعزيز بين القبائل والولايات
+              والمناطق تحت راية واحدة.
+            </p>
+            <p>
+              ومنذ ذلك التاريخ، شهدت المملكة تطوراً كبيراً في مختلف المجالات: الاقتصاد، التعليم، الصحة,
+              الصناعة، والبنية التحتية، مع الحفاظ على الهوية الإسلامية والتراث العربي الأصيل. كما لعبت المملكة
+              دوراً محورياً في تعزيز الأمن والاستقرار في المنطقة، وفي دعم السياحة والاقتصاد المعرفي والتنمية
+              المستدامة.
+            </p>
+            <p>
+              واليوم، المملكة العربية السعودية دولة ذات موقع استراتيجي مهم، وتضم أبرز الأماكن الدينية والتاريخية
+              والثقافية، وتواصل مسيرتها نحو رؤية مستقبلية طموحة تضعها في مقدمة الدول العالمية المتقدمة.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 المملكة العربية السعودية</p>
+        <p>أبرز المعالم والوجهات السياحية</p>
+        <a href="/admin-login" class="admin-link">لوحة الإدارة</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
